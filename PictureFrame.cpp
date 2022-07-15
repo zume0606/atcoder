@@ -1,5 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+/*
+上下の#で蓋するのを別々に書くしか思いつかなかった。
+vecの宣言で10000にしてるけど最適なサイズを入力を見てから動的に取れたりできる？
+*/
  
 int main() {
   int Height,Width;
@@ -31,3 +36,4 @@ int main() {
   
   return 0;
 }
+
